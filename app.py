@@ -3,8 +3,7 @@ import pandas as pd
 
 
 # Load saved model, scaler, and expected columns
-model = joblib.load("knn_heart_model.pkl")
-scaler = joblib.load("heart_scaler.pkl")
+
 expected_columns = joblib.load("heart_columns.pkl")
 
 st.title("Heart Stroke Prediction by akarsh")
